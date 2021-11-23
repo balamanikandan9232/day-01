@@ -1,0 +1,54 @@
+                                               DAY - 01
+
+
+                        Write a blog about objects and its internal representation in Javascript?
+
+
+
+                i)OBJECT WITH UNASSIGNED PROPERTIES:
+
+               var myCar = new Object();
+                   myCar.make = 'Ford';
+                   myCar.model = 'Mustang';
+                   myCar.year = 1969;
+
+  OUTPUT:
+      Unassigned properties of an object are undefined (and not null).
+       myCar.color; // undefined
+
+               ii)Objects are sometimes called associative arrays, since each property is associated with a string value that can be used to access it.
+           
+               iii) A CONSTRUCTOR FUNCTION :
+                 
+                  *Using a constructor function
+                      -Alternatively, you can create an object with these two steps:
+                      -Define the object type by writing a constructor function. There is a strong convention, with good reason, to use a capital initial letter.
+                      -Create an instance of the object with new.
+
+  FOR EXAMPLE : 
+     
+                   class Polygon {
+                        constructor() {
+                              this.name = 'Polygon';
+               }
+               }
+
+                  const poly1 = new Polygon();
+
+                       console.log(poly1.name);
+
+         OUTPUT:
+         
+                   Polygon.
+
+
+
+            iv)  OBJECT.CREATE METHOD:
+
+
+                * Object.create() method 
+                   -it allows you to choose the prototype object for the object you want to create, without having to define a constructor function.
+
+                                   ***********---------------*********
+
+                
